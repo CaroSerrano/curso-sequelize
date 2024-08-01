@@ -3,6 +3,8 @@ const sequelize = require('./database/connect.js');
 const companiesRouter = require('./controllers/companies.js');
 const employeesRouter = require('./controllers/employees.js');
 const studentsCoursesRouter = require('./controllers/studentsCourses.js')
+const dotenv = require('dotenv');
+dotenv.config();
 // require('./models/oneToOne/person.js');
 // require('./models/manyToMany/studentCourse.js');
 
